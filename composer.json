@@ -1,0 +1,23 @@
+{
+    "name": "ash/laravel-measurement-protocol",
+    "description": "A Laravel wrapper for Krizon's Google Analytics Measurement Protocol PHP Client.",
+    "authors": [
+        {
+            "name": "Ash"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.*",
+        "krizon/php-ga-measurement-protocol": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-0": {
+            "Ash\\LaravelMeasurementProtocol\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
