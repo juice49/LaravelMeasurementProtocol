@@ -16,7 +16,7 @@ Use it just like [Krizon's PHP client](https://github.com/krizon/php-ga-measurem
 
 Using Composer:
 
-	composer require 
+	composer require ash/laravel-measurement-protocol:dev-master
 
 ### Service Provider
 
