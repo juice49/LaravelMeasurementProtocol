@@ -4,11 +4,7 @@ An Analytics Measurement Protocol client for Laravel. This simply provides a sta
 
 ## Example
 
-Use it just like [Krizon's PHP client](https://github.com/krizon/php-ga-measurement-protocol), but without the need to
-
-- Instantiate
-- Pass a `tid` (this is taken from `config.analytics.tid`)
-- Pass a `cid` (this is picked up from the `_ga` cookie, although it can also be manually passed)
+Use it just like [Krizon's PHP client](https://github.com/krizon/php-ga-measurement-protocol), but without the need to instantiate, pass a `tid` (this is taken from `config.analytics.tid`), or pass a `cid` (this is picked up from the `_ga` cookie, although it can also be manually passed).
 
 	MeasurementProtocol::event(array(
 		'ec' => 'Contact Form',
