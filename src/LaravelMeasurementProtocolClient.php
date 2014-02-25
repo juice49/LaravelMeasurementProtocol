@@ -62,12 +62,12 @@ class LaravelMeasurementProtocolClient {
 			return false;
 		}
 		
-		list($version, $domainDepth, $cid1, $cid2) = split('[\.]', $_COOKIE['_ga'], 4);
+		$cookie = explode('.', $_COOKIE['_ga']);
 		
 		return array(
-			'version' => $version,
-			'domainDepth' => $domainDepth,
-			'cid' => $cid1 . '.' . $cid2
+			'version' => $cookie[0],
+			'domainDepth' => $cookie[1],
+			'cid' => $cookie[2] . '.' . $cookie[3]
 		);
 		
 	}
