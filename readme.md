@@ -4,7 +4,7 @@ An Analytics Measurement Protocol client for Laravel. This simply provides a sta
 
 ## Example
 
-Use it just like [Krizon's PHP client](https://github.com/krizon/php-ga-measurement-protocol), but without the need to:
+Use it just like [Krizon's PHP client](https://github.com/krizon/php-ga-measurement-protocol), but without the need to
 
 - Instantiate
 - Pass a `tid` (this is taken from `config.analytics.tid`)
