@@ -1,6 +1,6 @@
 <?php namespace Ash\LaravelMeasurementProtocol;
 
-use Krizon\Google\Analytics\MeasurementProtocol\MeasurementProtocolClient;
+use \Krizon\Google\Analytics\MeasurementProtocol\MeasurementProtocolClient;
 
 
 
